@@ -1,0 +1,39 @@
+body {
+  background: rgb(220, 224, 215);
+}
+
+.design {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 5rem;
+  left: 0;
+  background: url(bg-masthead.jpg);
+}
+
+.contact {
+  margin: 5rem auto;
+  max-width: 50rem;
+  width: 80%;
+  border-radius: 6px;
+  background-color: #38015c;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  opacity: 0.75;
+}
+
+.contact h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.contact label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}

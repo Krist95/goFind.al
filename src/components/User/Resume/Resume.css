@@ -1,0 +1,80 @@
+.Resume {
+  margin: 5rem auto;
+  max-width: 50rem;
+  width: 80%;
+  border-radius: 6px;
+  background-color: #38015c;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+  padding: 1rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.Resume-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.center-stepper {
+  display: flex;
+  justify-content: center;
+}
+
+.textField {
+  width: 40%;
+  background: #dce0d7;
+  border-radius: 6px;
+}
+
+.next_button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: #6a1d9e;
+  color: white;
+  border: 1px solid #6a1d9e;
+  margin: 5px;
+}
+.next_button:hover {
+  background-color: #893ebb;
+}
+
+.btn-box {
+  width: auto;
+}
+
+.add_button {
+  text-align: center;
+  display: block;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.1rem 0.7rem;
+  border-radius: 4px;
+  background-color: #6421c5b8;
+  color: white;
+  border: 1px solid #6421c5b8;
+  margin: 5px auto;
+}
+
+.add_button:hover {
+  background-color: #6421c5b8;
+}
+
+.remove_button {
+  display: block;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.1rem 0.7rem;
+  border-radius: 4px;
+  background-color: #922965;
+  color: white;
+  border: 1px solid #922965;
+  margin: 5px auto;
+}
+
+.remove_button:hover {
+  background-color: #922965;
+}

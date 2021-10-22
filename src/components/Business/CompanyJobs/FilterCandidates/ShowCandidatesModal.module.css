@@ -1,0 +1,78 @@
+.main {
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.main select {
+  margin: 5px auto;
+}
+
+.main button {
+  margin: 10px auto;
+}
+
+.p {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #38015c;
+}
+
+.btn_getBc {
+  width: 45%;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #38015c;
+  border: 1px solid #38015c;
+  border-radius: 4px;
+  margin: 4px auto;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn_getBc:hover {
+  background-color: #06693eb5;
+  border-color: #06693eb5;
+}
+
+.btn_chngFlt {
+  width: 50%;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #38015c;
+  border: 1px solid #38015c;
+  border-radius: 4px;
+  margin: 4px auto;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.btn_chngFlt:hover {
+  background-color: #de0d8f99;
+  border-color: #de0d8f99;
+}
+
+.select {
+  width: 60%;
+  /* text-align: center; */
+  padding: 8px 12px;
+  color: #38015c;
+  background-color: #eee;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.selected_option {
+  color: #38015c;
+  background-color: #eee;
+}

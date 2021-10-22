@@ -1,0 +1,17 @@
+.jobs {
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 60rem;
+  max-width: 95%;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-list__fallback {
+  color: #38015c;
+  text-align: center;
+}
